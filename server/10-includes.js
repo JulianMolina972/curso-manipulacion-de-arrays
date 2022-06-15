@@ -16,3 +16,15 @@ console.log('for', includeArray);
 const rta = pets.includes('dog');
 
 console.log('includes', rta);
+
+
+
+function solution(words, query) {
+	const rta4 = words.filter(word => word.includes(query));
+	
+	
+	return rta4;
+}; 
+
+console.log(solution(["ana", "santi", "nico", "anastasia"], "an"));
+
