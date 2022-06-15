@@ -9,7 +9,7 @@ for (let index = 0; index < letters.length; index++) {
 const newLetters = [];
 letters.forEach(item => {
     newLetters.push(item + '2'),
-    console.log('forEach', item + 'hello')});
+    console.log('forEach', item + ' hello')});
 
 console.log(letters);
 console.log(newLetters);
